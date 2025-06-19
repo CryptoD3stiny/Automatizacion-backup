@@ -1,6 +1,8 @@
 # Automatizacion-backup
 Automatice la copia de seguridad con Python
 
+![image](https://github.com/user-attachments/assets/a0ffac3d-da0c-47eb-add4-1efeffe93106)
+
 En este artículo, vamos a ver cómo automatizar la copia de seguridad con un script de Python.
 
 Las copias de seguridad de archivos son esenciales para preservar sus datos en el almacenamiento local. Usaremos los módulos shutil, os y sys. En este caso, el módulo shutil se utiliza para copiar datos de un archivo a otro, mientras que los módulos os y sys se utilizan para obtener la ruta del directorio, etc.
@@ -74,5 +76,8 @@ shutil.copy2(src_dir, dst_dir)
 Nota: Si queremos hacer una copia de seguridad de toda la carpeta en lugar de archivos individuales, debemos usar el código a continuación.
 
 shutil.copytree(src_file_name, dst_dir)
+
+
+
 
 
